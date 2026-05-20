@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-wa-bg: var(--wa-bg);
+  --color-wa-chat-bg: var(--wa-chat-bg);
+  --color-wa-header: var(--wa-header);
+  --color-wa-nav-bg: var(--wa-nav-bg);
+  --color-wa-text: var(--wa-text);
+  --color-wa-text-muted: var(--wa-text-muted);
+  --color-wa-text-secondary: var(--wa-text-secondary);
+  --color-wa-sent: var(--wa-sent);
+  --color-wa-received: var(--wa-received);
+  --color-wa-green: #25d366;
+  --color-wa-green-dark: #008069;
+  --color-wa-green-light: #e7ffdb;
+  --color-wa-border: var(--wa-border);
+  --color-wa-border-light: var(--wa-border-light);
+  --color-wa-active-tab: var(--wa-active-tab);
+  --wa-chat-pattern: var(--chat-pattern);
+}
+
+:root {
+  --wa-bg: #ffffff;
+  --wa-chat-bg: #efeae2;
+  --wa-header: #ffffff;
+  --wa-nav-bg: #ffffff;
+  --wa-text: #111b21;
+  --wa-text-muted: #667781;
+  --wa-text-secondary: #54656f;
+  --wa-sent: #d9fdd3;
+  --wa-received: #ffffff;
+  --wa-border: #f0f2f5;
+  --wa-border-light: #e9edef;
+  --wa-active-tab: #dcf8c6;
+  --wa-chat-pattern: url('https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png');
+}
+
+.dark {
+  --wa-bg: #0b141a;
+  --wa-chat-bg: #0b141a; 
+  --wa-header: #111b21;
+  --wa-nav-bg: #111b21;
+  --wa-text: #e9edef;
+  --wa-text-muted: #8696a0;
+  --wa-text-secondary: #aebac1;
+  --wa-sent: #005c4b;
+  --wa-received: #202c33;
+  --wa-border: #222d34;
+  --wa-border-light: #182229;
+  --wa-chat-pattern: url('https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png');
+}
+
+@keyframes statusProgress {
+  from { width: 0%; }
+  to { width: 100%; }
+}
+
+.animate-status-progress {
+  animation: statusProgress 5s linear forwards;
+}

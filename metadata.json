@@ -1,0 +1,6 @@
+{
+  "name": "ZapFake: WhatsApp Clone & Status",
+  "description": "Crie conversas fictícias realistas com mensagens de voz, fotos e agora com recurso de Status (texto, imagem e vídeo) que expira em 24h.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

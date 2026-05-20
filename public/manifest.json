@@ -1,0 +1,68 @@
+{
+  "id": "com.zapfake.app",
+  "name": "ZapFake: WhatsApp Clone & Status",
+  "short_name": "ZapFake",
+  "description": "Crie conversas fictícias realistas com mensagens de voz, fotos e agora com recurso de Status (texto, imagem e vídeo) que expira em 24h. Ideal para simulações, brincadeiras e conteúdo criativo.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b141a",
+  "theme_color": "#00a884",
+  "orientation": "portrait-primary",
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  },
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": [
+    "social",
+    "entertainment",
+    "utilities"
+  ],
+  "shortcuts": [
+    {
+      "name": "Novo Chat",
+      "short_name": "Novo Chat",
+      "description": "Inicie uma nova simulação de conversa",
+      "url": "/?shortcut=new-chat",
+      "icons": [
+        {
+          "src": "/icon-512.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Ver Status",
+      "short_name": "Status",
+      "description": "Visualize ou adicione atualizações de status fictícias",
+      "url": "/?shortcut=status",
+      "icons": [
+        {
+          "src": "/icon-512.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}
